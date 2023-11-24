@@ -19,11 +19,10 @@ int main(){
     {
         for (int j = 0; j < m; j++)
         {
-            matriz[i][j]=rand()%10;
+            matriz[i][j]=rand()%100+1;
         }
         
     }
-    
 
         printf("Matriz\n");
         for (int i = 0; i < n; i++)
