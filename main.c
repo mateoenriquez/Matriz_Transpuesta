@@ -11,6 +11,7 @@ int main(){
     scanf("%d", &n);
     printf("Ingrese el numero de columnas: ");
     scanf("%d", &m);
+    printf("\n");
 
     int matriz[n][m];
 
@@ -23,6 +24,8 @@ int main(){
         
     }
     
+
+        printf("Matriz\n");
         for (int i = 0; i < n; i++)
     {
         printf("\n");
@@ -32,7 +35,19 @@ int main(){
         }
         
     }
-    
+ 
+            printf("\n\nMatriz Transpuesta\n");
 
+            for (int i = 0; i < n; i++)
+    {
+        printf("\n");
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d ", matriz[j][i]);
+        }
+        
+    }
+
+    
     return 0;
 }
